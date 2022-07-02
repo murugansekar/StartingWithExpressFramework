@@ -1,0 +1,46 @@
+Answer the following and paste the query here
+
+1.https://www.w3schools.com/sql/exercise.asp?filename=exercise_insert1
+insert into Customers (CustomerName, Address, City, PostalCode,Country) values ('Hekkan Burger','Gateveien 15','Sandnes','4306','Norway');
+
+2.https://www.w3schools.com/sql/exercise.asp?filename=exercise_null1
+SELECT * FROM Customers WHERE PostalCode is null;
+
+3.https://www.w3schools.com/sql/exercise.asp?filename=exercise_null2
+SELECT * FROM Customers WHERE PostalCode is not null;
+
+4.https://www.w3schools.com/sql/exercise.asp?filename=exercise_update1
+update Customers set City = 'Oslo';
+
+5.https://www.w3schools.com/sql/exercise.asp?filename=exercise_update2
+update Customers set City = 'Oslo' where Country = 'Norway';
+
+6.https://www.w3schools.com/sql/exercise.asp?filename=exercise_update3
+update Customers set City = 'Oslo', Country = 'Norway' WHERE CustomerID = 32;
+
+7.https://www.w3schools.com/sql/exercise.asp?filename=exercise_delete1
+delete from Customers where Country = 'Norway';
+
+8.https://www.w3schools.com/sql/exercise.asp?filename=exercise_delete2
+delete from Customers;
+
+9.https://www.w3schools.com/sql/exercise.asp?filename=exercise_like1
+SELECT * FROM Customers where city like "a%";
+
+10.https://www.w3schools.com/sql/exercise.asp?filename=exercise_like2
+SELECT * FROM Customers where city like "%a";
+
+11.https://www.w3schools.com/sql/exercise.asp?filename=exercise_like3
+SELECT * FROM Customers where city like "%a%";
+
+12.https://www.w3schools.com/sql/exercise.asp?filename=exercise_like4
+SELECT * FROM Customers where city like "a%b";
+
+13.https://www.w3schools.com/sql/exercise.asp?filename=exercise_like5
+SELECT * FROM Customers where city not like "a%";
+
+14.https://www.w3schools.com/sql/exercise.asp?filename=exercise_in1
+SELECT * FROM Customers where Country in ("Norway", 'France');
+
+15.https://www.w3schools.com/sql/exercise.asp?filename=exercise_in2
+SELECT * FROM Customers where country not in ('Norway', 'France');
