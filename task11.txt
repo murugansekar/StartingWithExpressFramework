@@ -1,0 +1,25 @@
+Solve the following and paste the answers here
+
+1.https://www.w3schools.com/sql/exercise.asp?filename=exercise_select1
+SELECT * FROM Customers;
+
+2.https://www.w3schools.com/sql/exercise.asp?filename=exercise_select2
+select city from Customers;
+
+3.https://www.w3schools.com/sql/exercise.asp?filename=exercise_select3
+select distinct Country FROM Customers;
+
+4.https://www.w3schools.com/sql/exercise.asp?filename=exercise_where1
+SELECT * FROM Customers where city = "Berlin";
+
+5.https://www.w3schools.com/sql/exercise.asp?filename=exercise_where2
+SELECT * FROM Customers where not city = 'Berlin';
+
+6.https://www.w3schools.com/sql/exercise.asp?filename=exercise_where3
+SELECT * FROM Customers where CustomerID = 32;
+
+7.https://www.w3schools.com/sql/exercise.asp?filename=exercise_where4
+select * FROM Customers where City = 'Berlin' and PostalCode = 12209;
+
+8.https://www.w3schools.com/sql/exercise.asp?filename=exercise_where5
+select * FROM Customers where City = 'Berlin' or city = 'London';
