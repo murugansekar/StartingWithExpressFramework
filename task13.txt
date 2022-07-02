@@ -1,0 +1,22 @@
+Do the following tasks and paste the query he
+
+1.https://www.w3schools.com/sql/exercise.asp?filename=exercise_database1
+create database testDB;
+
+2.https://www.w3schools.com/sql/exercise.asp?filename=exercise_database2
+drop database testDB;
+
+3.https://www.w3schools.com/sql/exercise.asp?filename=exercise_database3
+create table Persons (PersonID int, LastName varchar(255), FirstName varchar(255), Address varchar(255), City varchar(255));
+
+4.https://www.w3schools.com/sql/exercise.asp?filename=exercise_database4
+drop table Persons;
+
+5.https://www.w3schools.com/sql/exercise.asp?filename=exercise_database5
+truncate table Persons;
+
+6.https://www.w3schools.com/sql/exercise.asp?filename=exercise_database6
+alter table Persons add Birthday DATE;
+
+7.https://www.w3schools.com/sql/exercise.asp?filename=exercise_database7
+alter table Persons drop column Birthday;
