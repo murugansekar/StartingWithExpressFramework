@@ -1,0 +1,13 @@
+Answer the following
+
+Tell me when should you use SQl and when No SQL
+when our data uses schemas and it has relations and when it was distributed across multiple tables we use SQL else when the data was not structure we will use No SQL
+
+What is vertical and horizontal scaling.
+Vertical scaling means that we make our existing server stronger by adding more CPU or memory but the problem here is that you have some limit, you can't fit infinitely much CPU power into a single machine.Vertical scaling is easily possible in SQL. Horizontal scaling is very difficult due to the way SQL works, running upgraded servers all on one shared data cloud is difficult. With NoSQL, horizontal scaling is easier.
+
+Deliverables
+
+Watch video 139 Install the MySQL database code. Set the root user password.
+Also install the workbench. If stuck check youtube videos too and try writing the error into google and finding the answer. (If nothing work try reinstalling)
+Watch video 140 to connect to MySQL database to node js server.
